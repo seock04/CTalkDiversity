@@ -50,8 +50,9 @@ CTalkDiversity/
     Conference/
     CallForSpeakers/
   Conferences/
-    24/
-    25/
+    1/
+    2/
+    ...
     26/
   CallForSpeakers/
   assets/
@@ -111,9 +112,8 @@ CTalkDiversity/
 - 지난 행사 목록 및 링크 정리
 
 ### 행사 상세
-- `Pages/Conference/conference-24.html`
-- `Pages/Conference/conference-25.html`
-- `Pages/Conference/conference-26.html`
+- `Pages/Conference/conference-1.html` ~ `Pages/Conference/conference-26.html`
+- 현재 1~26회 상세 페이지가 모두 존재하며, `Pages/conferences.html`에서 목록으로 연결됨
 
 ### 발표자 모집
 - `Pages/call-for-speakers.html`
