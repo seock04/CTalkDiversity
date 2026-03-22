@@ -2005,6 +2005,33 @@ input, select, textarea {
 			color: #ffffff !important;
 		}
 
+		.status-badge {
+			display: inline-block;
+			padding: 0.45em 0.9em;
+			border-radius: 999px;
+			font-family: "Raleway", Helvetica, sans-serif;
+			font-size: 0.6em;
+			font-weight: 800;
+			letter-spacing: 0.18em;
+			text-transform: uppercase;
+			line-height: 1;
+		}
+
+		.status-badge.archive {
+			background: rgba(160, 160, 160, 0.12);
+			color: #6f6f6f !important;
+		}
+
+		.status-badge.upcoming {
+			background: rgba(46, 186, 174, 0.14);
+			color: #1f8b82 !important;
+		}
+
+		.status-badge.open-call {
+			background: rgba(241, 169, 83, 0.16);
+			color: #b36b00 !important;
+		}
+
 		input[type="submit"].disabled, input[type="submit"]:disabled,
 		input[type="reset"].disabled,
 		input[type="reset"]:disabled,
