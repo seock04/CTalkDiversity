@@ -1959,6 +1959,22 @@ input, select, textarea {
 			font-size: 0.5em;
 		}
 
+		.cta-email-button {
+			height: auto;
+			line-height: 1.4;
+			padding: 1.2em 1.5em;
+			white-space: normal;
+			text-transform: none;
+			letter-spacing: 0.08em;
+		}
+
+			.cta-email-button span {
+				display: inline-block;
+				margin-top: 0.35em;
+				font-size: 0.95em;
+				word-break: break-all;
+			}
+
 		input[type="submit"].disabled, input[type="submit"]:disabled,
 		input[type="reset"].disabled,
 		input[type="reset"]:disabled,
