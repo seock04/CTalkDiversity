@@ -37,8 +37,8 @@
 | 22 | Live on site | `Conferences/22/` | 구조 안정적 |
 | 23 | Live on site | `Conferences/23/` | 페이지와 로컬 이미지 모두 존재 |
 | 24 | Live on site | `Conferences/24/` | 최근 회차, 구조 양호 |
-| 25 | Live on site (needs cleanup) | `Conferences/25/` | HTML이 예전 자산명(`24th-02...`)을 참조 중 |
-| 26 | Live on site (needs cleanup) | `Conferences/26/` | 폴더는 26회지만 파일명이 `24th-*`로 남아 있음 |
+| 25 | Live on site | `Conferences/25/` | 대표/스피커 자산 참조 정리 완료 |
+| 26 | Live on site | `Conferences/26/` | 파일명과 HTML 참조를 26회 기준으로 정리 완료 |
 
 ## 지금 기준 다음 작업 후보
 - [ ] `README.md`의 폴더 구조/상세 페이지 설명을 현재 상태(1~26 반영)로 맞추기
