@@ -275,3 +275,4 @@
 - 임시 점검, audit, tracker, diagnosis, qa 성격의 보조 문서는 GitHub로 올리지 않고 작업이 끝나면 삭제한다.
 - 장기 기준이 필요한 내용만 별도 spec 또는 유지할 문서로 남긴다.
 - conference 작업은 이 문서의 conference 섹션과 체크리스트를 기준으로 진행한다.
+- 27회차 반영과 26회차 완료형 정리는 [`Specification/conference-operations-plan.md`](./conference-operations-plan.md)를 참고한다.
