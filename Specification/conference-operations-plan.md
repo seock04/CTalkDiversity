@@ -21,7 +21,8 @@
 ### 1. 종료된 upcoming conference를 archive로 정리
 
 - conference 상세 페이지의 상태 문구를 완료형 아카이브 기준으로 맞춘다.
-- 등록 유도 문구가 있으면 완료형 안내 문구로 교체한다.
+- 등록 유도나 초대 문구가 있으면 제거한다.
+- archive에는 conference 내용 자체에 기반한 설명만 남긴다.
 - 홈과 목록에서 더 이상 진행 중인 행사처럼 보이지 않게 한다.
 
 ### 2. 새 upcoming conference 상세 페이지 생성
@@ -30,6 +31,7 @@
 - 대표 포스터와 speaker 포스터를 올바른 순서로 연결한다.
 - `Conference Overview`를 넣어 이 회차의 맥락을 설명한다.
 - speaker 수에 맞게 소개와 topic 설명을 분리한다.
+- archive로 전환될 때를 대비해, 회차 결과물로 남길 수 있는 뉴스 링크나 podcast 링크를 붙일 수 있는 섹션 구조를 미리 고려한다.
 
 ### 3. 목록 페이지 반영
 
@@ -46,6 +48,8 @@
 
 - 홈, 목록, 상세 페이지의 `href`와 `src`를 확인한다.
 - archive 상태로 옮긴 conference가 완료형으로 보이는지 확인한다.
+- archive 페이지에 남는 문구가 초대/모집 중심이 아니라 내용 요약 중심인지 확인한다.
+- 필요 시 뉴스 링크, podcast 링크 같은 결과물 링크를 추가할 수 있는 위치가 있는지 확인한다.
 - 새 upcoming conference가 실제 공개 entry point에서 노출되는지 확인한다.
 - 브라우저에서 외부 사용자 관점으로 한 번 더 확인한다.
 
@@ -54,4 +58,5 @@
 - 새 upcoming conference가 `index.html`과 `Pages/conferences.html`에 노출된다.
 - 새 upcoming conference 상세 페이지가 실제 이미지와 연결된다.
 - archive로 옮긴 conference가 완료형 상태로 보인다.
+- archive 결과물 링크를 추가할 수 있는 구조가 유지된다.
 - 로컬 참조 오류가 없다.
