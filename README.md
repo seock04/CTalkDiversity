@@ -149,7 +149,8 @@ http://127.0.0.1:8008
 ## 6. 콘텐츠를 추가할 때 기본 원칙
 
 현재는 수작업 중심 구조이므로, 새 콘텐츠를 추가할 때 다음 항목을 함께 점검해야 합니다.
-27회차 반영과 26회차 완료형 정리 계획은 [`Specification/conference-operations-plan.md`](./Specification/conference-operations-plan.md)에서 따로 관리합니다.
+
+conference upcoming 반영과 archive 전환 계획은 [`Specification/conference-operations-plan.md`](./Specification/conference-operations-plan.md)에서 따로 관리합니다.
 
 ### 새 conference 추가 시
 일반적으로 다음 수정이 필요합니다:
