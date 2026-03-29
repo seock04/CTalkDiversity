@@ -88,12 +88,20 @@
 - 상세 페이지: `Pages/Conference/conference-XX.html`
 - 이미지: `images/conferences/XX/`
 
+#### 작업 순서
+
+1. 회차 번호, 제목, 테마, 날짜, 시간, moderator, register 링크, speaker 수, 각 speaker 정보, 사용할 이미지 목록을 먼저 정리한다.
+2. 가장 최근 conference 페이지를 복사해 새 파일을 만든다.
+3. `<title>`, 상단 제목, theme, 날짜/시간, moderator, 대표 이미지, speaker 섹션, 버튼 링크, alt text를 수정한다.
+4. `Pages/conferences.html`을 갱신한다.
+5. 최신 회차라면 `index.html`도 함께 갱신한다.
+6. 이미지 경로와 링크가 맞는지 다시 확인한다.
+
 #### 함께 바꿔야 하는 항목
 
 - `Pages/conferences.html`
 - `index.html`
 - 관련 이미지 경로
-- 필요 시 `conference-guide.md`
 - 필요 시 `README.md`
 
 #### 추가 규칙
@@ -102,6 +110,7 @@
 - 대표 포스터는 `main`을 사용한다.
 - speaker 포스터는 `speaker-1`, `speaker-2`, `speaker-3` 순으로 둔다.
 - `main+`이 있으면 보조 포스터로만 사용한다.
+- speaker 포스터에 이미 들어 있는 문구는 본문에서 반복하지 않는다.
 
 ### 5.2 Call for Speakers 페이지
 
@@ -165,8 +174,11 @@
 
 - speaker 수와 섹션 수는 같아야 한다.
 - speaker 소개와 topic 설명은 분리한다.
+- `Event Details`와 speaker 섹션 사이에 `Conference Overview`를 두고, 이 회차가 왜 중요한지 짧게 설명한다.
 - 아카이브 페이지는 과거 행사임을 명시한다.
 - 최신 conference는 홈과 목록에서 우선 노출한다.
+- 문자가 깨진 흔적이 있으면 수정 작업 중에 함께 바로잡는다.
+- speaker가 1명이어도 overview와 맥락 설명은 생략하지 않는다.
 
 ### 6.2 Call for Speakers 구성
 
@@ -260,6 +272,4 @@
 - 새 작업을 시작할 때는 이 문서를 먼저 본다.
 - 임시 점검, audit, tracker, diagnosis, qa 성격의 보조 문서는 GitHub로 올리지 않고 작업이 끝나면 삭제한다.
 - 장기 기준이 필요한 내용만 별도 spec 또는 유지할 문서로 남긴다.
-- 기존의 개별 가이드가 이 spec과 충돌하면 spec을 우선한다.
-- 구조가 바뀌면 이 spec도 같이 고친다.
-- 세부 절차가 필요한 conference 작업은 `conference-guide.md`도 함께 본다.
+- conference 작업은 이 문서의 conference 섹션과 체크리스트를 기준으로 진행한다.
