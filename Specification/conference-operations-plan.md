@@ -38,6 +38,7 @@
 - `Pages/conferences.html` 맨 위에 새 upcoming conference를 추가한다.
 - 기존 upcoming conference는 아래로 내리고, 종료된 conference는 archive 상태로 유지한다.
 - 카드 제목, 요약, 이미지, 링크가 실제 파일과 일치하는지 확인한다.
+- `index.html`의 conference 노출 영역에서는 최신 2개 conference 데이터를 우선 보여주고, 새 conference가 추가되면 그 직전 conference 2개가 계속 보이도록 갱신한다.
 
 ### 4. 홈 페이지 반영
 
@@ -52,6 +53,7 @@
 - 필요 시 뉴스 링크, podcast 링크 같은 결과물 링크를 추가할 수 있는 위치가 있는지 확인한다.
 - 새 upcoming conference가 실제 공개 entry point에서 노출되는지 확인한다.
 - 브라우저에서 외부 사용자 관점으로 한 번 더 확인한다.
+- PC에서 보이는 왼쪽 사이드바(메뉴 영역)의 conference 미리보기는 항상 현재 최신 회차(N)를 제외한 직전 2개 회차(N-1, N-2)로 유지한다.
 
 ## 완료 기준
 
