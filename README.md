@@ -121,32 +121,7 @@ CTalkDiversity/
 
 ---
 
-## 5. 로컬에서 확인하는 방법
-
-정적 사이트이므로 간단한 HTTP 서버로 확인할 수 있습니다.
-
-예:
-
-```bash
-cd /Users/seock04/WorkSpace/CTalkDiversity
-python3 -m http.server 8008
-```
-
-브라우저에서:
-
-```text
-http://127.0.0.1:8008
-```
-
-확인 가능한 주요 경로 예:
-- `/`
-- `/Pages/about.html`
-- `/Pages/conferences.html`
-- `/Pages/Conference/conference-26.html`
-
----
-
-## 6. 콘텐츠를 추가할 때 기본 원칙
+## 5. 콘텐츠를 추가할 때 기본 원칙
 
 현재는 수작업 중심 구조이므로, 새 콘텐츠를 추가할 때 다음 항목을 함께 점검해야 합니다.
 
@@ -170,7 +145,7 @@ conference upcoming 반영과 archive 전환 계획은 [`Specification/conferenc
 
 ---
 
-## 7. 현재 운영상 중요 과제
+## 6. 현재 운영상 중요 과제
 
 이 프로젝트는 이미 동작하는 정적 사이트이지만, 앞으로 다음 과제가 중요합니다:
 
@@ -185,29 +160,14 @@ conference upcoming 반영과 archive 전환 계획은 [`Specification/conferenc
 
 ---
 
-## 8. 앞으로 문서화할 항목
-
-다음 문서를 순차적으로 정리할 예정입니다:
-- conference 추가 가이드
-- call for speakers 추가 가이드
-- 자산 네이밍 규칙
-- 구조 점검 체크리스트
-- 장기 개선 로드맵
-
-현재 초안 문서:
-- `diagnosis-report.md`
-- `next-steps.md`
-
----
-
-## 9. 참고
+## 7. 참고
 
 - `README.txt`는 HTML5 UP 원본 템플릿 설명 파일입니다.
 - 이 `README.md`는 CTalkDiversity 프로젝트 자체를 설명하기 위한 운영 문서입니다.
 
 ---
 
-## 10. 현재 방향
+## 8. 현재 방향
 
 CTalkDiversity는 단순한 정적 페이지 모음이 아니라,
 **지속적으로 콘텐츠를 축적하고 개선해나갈 수 있는 문화/DEI 커뮤니티 웹사이트**로 발전시키는 방향을 목표로 합니다.
