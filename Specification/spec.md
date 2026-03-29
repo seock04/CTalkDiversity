@@ -258,7 +258,8 @@
 ## 10. 운영 원칙
 
 - 새 작업을 시작할 때는 이 문서를 먼저 본다.
-- 세부 절차가 필요한 conference 작업은 `conference-guide.md`도 함께 본다.
+- 임시 점검, audit, tracker, diagnosis, qa 성격의 보조 문서는 GitHub로 올리지 않고 작업이 끝나면 삭제한다.
+- 장기 기준이 필요한 내용만 별도 spec 또는 유지할 문서로 남긴다.
 - 기존의 개별 가이드가 이 spec과 충돌하면 spec을 우선한다.
 - 구조가 바뀌면 이 spec도 같이 고친다.
-
+- 세부 절차가 필요한 conference 작업은 `conference-guide.md`도 함께 본다.
