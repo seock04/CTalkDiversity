@@ -126,14 +126,7 @@ CTalkDiversity/
 현재는 수작업 중심 구조이므로, 새 콘텐츠를 추가할 때 다음 항목을 함께 점검해야 합니다.
 
 conference upcoming 반영과 archive 전환 계획은 [`Specification/conference-operations-plan.md`](./Specification/conference-operations-plan.md)에서 따로 관리합니다.
-
-### 새 conference 추가 시
-일반적으로 다음 수정이 필요합니다:
-- `Pages/Conference/` 아래 새 상세 페이지 추가
-- `Pages/conferences.html` 목록 갱신
-- 필요 시 `index.html` 메인 노출 갱신
-- `Conferences/<회차>/` 아래 이미지 추가
-- 링크 및 이미지 경로 점검
+call for speakers open call 반영과 archive 전환 계획은 [`Specification/call-for-speakers-operations-plan.md`](./Specification/call-for-speakers-operations-plan.md)에서 따로 관리합니다.
 
 ### 새 call for speakers 추가 시
 일반적으로 다음 수정이 필요합니다:

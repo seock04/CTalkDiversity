@@ -276,3 +276,4 @@
 - 장기 기준이 필요한 내용만 별도 spec 또는 유지할 문서로 남긴다.
 - conference 작업은 이 문서의 conference 섹션과 체크리스트를 기준으로 진행한다.
 - conference upcoming 반영과 archive 전환은 [`Specification/conference-operations-plan.md`](./conference-operations-plan.md)를 참고한다.
+- call for speakers open call 반영과 archive 전환은 [`Specification/call-for-speakers-operations-plan.md`](./call-for-speakers-operations-plan.md)를 참고한다.
