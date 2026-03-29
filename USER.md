@@ -1,0 +1,1 @@
+CTalk 이미지 규칙: `main`은 행사 홍보용 가장 중요한 대표 포스터, `main+`는 메인 포스터의 다른 디자인 버전으로 HTML에서 main 아래쪽에 배치, `speakers`는 개별 speaker 포스터가 따로 없고 그 한 장으로 speaker 섹션을 대체, `speaker-1~3`는 실제 speaker 수만큼 순서대로 HTML에 반영하기.
