@@ -12,3 +12,6 @@ qa-report-*.md
 notes-conference-*.md
 Conferences/image-audit-*.md
 README.txt
+
+# Local OpenClaw workspace data
+.openclaw/
